@@ -4,6 +4,9 @@
 	<classpathentry kind="src" path="test/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="lib/ical4j/ical4j-2.0-beta1.jar"/>
+	<classpathentry kind="lib" path="lib/apache/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="lib/sfl4j/jcl-over-slf4j-1.7.13.jar"/>
+	<classpathentry kind="lib" path="lib/sfl4j/slf4j-api-1.7.13.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
