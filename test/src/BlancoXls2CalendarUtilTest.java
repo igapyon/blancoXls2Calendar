@@ -1,4 +1,3 @@
-package blanco.xls2calendar.util;
 
 import static org.junit.Assert.fail;
 
@@ -6,6 +5,7 @@ import java.io.IOException;
 
 import org.junit.Test;
 
+import blanco.xls2calendar.util.BlancoXls2CalendarUtil;
 import net.fortuna.ical4j.model.ValidationException;
 import net.fortuna.ical4j.model.component.VEvent;
 
@@ -30,7 +30,7 @@ public class BlancoXls2CalendarUtilTest {
     public void testMain() throws IOException, ValidationException {
         final BlancoXls2CalendarUtil icallib = new BlancoXls2CalendarUtil();
 
-        final VEvent event = icallib.createEvent("tosiki.iga@nifty.ne.jp", "Œ·Šyld‘t‚Ì—ûK#1", "ƒAƒƒŠƒJ‘æˆêŠyÍ‚ğ—ûK", "‚¢‚Â‚à‚Ì—ûKêŠ",
+        final VEvent event = icallib.createEvent("tosiki.iga@nifty.ne.jp", "å¼¦æ¥½å››é‡å¥ã®ç·´ç¿’#1", "ã‚¢ãƒ¡ãƒªã‚«ç¬¬ä¸€æ¥½ç« ã‚’ç·´ç¿’", "ã„ã¤ã‚‚ã®ç·´ç¿’å ´æ‰€",
                 BlancoXls2CalendarUtil.newDate(2015, 12, 31, 17, 30),
                 BlancoXls2CalendarUtil.newDate(2015, 12, 31, 19, 30));
         final String calendarAsString = BlancoXls2CalendarUtil.vevent2CalString(event);
