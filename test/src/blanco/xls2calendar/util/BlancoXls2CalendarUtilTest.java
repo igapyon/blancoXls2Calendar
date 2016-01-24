@@ -1,3 +1,4 @@
+package blanco.xls2calendar.util;
 
 import static org.junit.Assert.fail;
 
@@ -5,7 +6,6 @@ import java.io.IOException;
 
 import org.junit.Test;
 
-import blanco.xls2calendar.util.BlancoXls2CalendarUtil;
 import net.fortuna.ical4j.model.ValidationException;
 import net.fortuna.ical4j.model.component.VEvent;
 
