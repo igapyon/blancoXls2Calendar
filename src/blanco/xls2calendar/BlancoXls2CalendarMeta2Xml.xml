@@ -2,9 +2,9 @@
 <!-- blancoCalcParser define file for blancoSvnConf -->
 <blanco version="0.1.0">
   <target name="blancoCalcParser">
-    <blancocalcparser name="message">
+    <blancocalcparser name="calendar">
       <propertyblock name="blancoxls2calendar-common" waitY="1">
-        <startstring>iCalendar定義・共通</startstring>
+        <startstring>Calendar定義・共通</startstring>
         <propertykey name="emailaddr" waitX="2">
           <value>e-mainアドレス</value>
         </propertykey>
@@ -14,7 +14,7 @@
       </propertyblock>
 
       <tableblock name="blancoxls2calendar-list" waitY="2" titleheight="3" rowname="user">
-        <startstring>iCalendar定義・イベント一覧</startstring>
+        <startstring>Calendar定義・イベント一覧</startstring>
 
         <tablecolumn name="no">
           <value>No.</value>
