@@ -6,14 +6,14 @@
       <propertyblock name="blancoxls2calendar-common" waitY="1">
         <startstring>Calendar定義・共通</startstring>
         <propertykey name="emailaddr" waitX="2">
-          <value>e-mainアドレス</value>
+          <value>e-mailアドレス</value>
         </propertykey>
         <propertykey name="uid" waitX="2">
           <value>uid</value>
         </propertykey>
       </propertyblock>
 
-      <tableblock name="blancoxls2calendar-list" waitY="2" titleheight="3" rowname="user">
+      <tableblock name="blancoxls2calendar-list" waitY="2" titleheight="3" rowname="event">
         <startstring>Calendar定義・イベント一覧</startstring>
 
         <tablecolumn name="no">
