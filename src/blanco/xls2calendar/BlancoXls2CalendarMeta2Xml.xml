@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- blancoCalcParser define file for blancoSvnConf -->
+<blanco version="0.1.0">
+  <target name="blancoCalcParser">
+    <blancocalcparser name="message">
+      <propertyblock name="blancoxls2calendar-common" waitY="1">
+        <startstring>iCalendar定義・共通</startstring>
+        <propertykey name="emailaddr" waitX="2">
+          <value>e-mainアドレス</value>
+        </propertykey>
+        <propertykey name="uid" waitX="2">
+          <value>uid</value>
+        </propertykey>
+      </propertyblock>
+
+      <tableblock name="blancoxls2calendar-list" waitY="2" titleheight="3" rowname="user">
+        <startstring>iCalendar定義・イベント一覧</startstring>
+
+        <tablecolumn name="no">
+          <value>No.</value>
+        </tablecolumn>
+        <tablecolumn name="title">
+          <value>概要</value>
+        </tablecolumn>
+        <tablecolumn name="description">
+          <value>詳細</value>
+        </tablecolumn>
+        <tablecolumn name="location">
+          <value>場所</value>
+        </tablecolumn>
+        <tablecolumn name="ymd">
+          <value>年月日</value>
+        </tablecolumn>
+        <tablecolumn name="beginHm">
+          <value>開始
+時刻</value>
+        </tablecolumn>
+        <tablecolumn name="endHm">
+          <value>終了
+時刻</value>
+        </tablecolumn>
+      </tableblock>
+
+    </blancocalcparser>
+  </target>
+</blanco>
