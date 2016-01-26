@@ -32,7 +32,7 @@ public class BlancoXls2CalendarUtilTest {
 
         final VEvent event = icallib.createEvent("tosiki.iga@nifty.ne.jp", "弦楽四重奏の練習#1", "アメリカ第一楽章を練習", "いつもの練習場所",
                 BlancoXls2CalendarUtil.newDate(2015, 12, 31, 17, 30),
-                BlancoXls2CalendarUtil.newDate(2015, 12, 31, 19, 30));
+                BlancoXls2CalendarUtil.newDate(2015, 12, 31, 19, 30), "uiduid");
         final String calendarAsString = BlancoXls2CalendarUtil.vevent2CalString(event);
         System.out.println(calendarAsString);
     }
